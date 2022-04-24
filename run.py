@@ -10,3 +10,8 @@ def create_account(fname,lname,username,password,email):
     '''
     new_account =Account(fname,lname,username,password,email)
     return new_account
+def save_accounts(account):
+    '''
+    Function to save the new account
+    '''
+    account.save_account()
