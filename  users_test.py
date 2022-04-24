@@ -4,7 +4,7 @@ from credentials import Account
 class AccountsTest(unittest.TestCase):
 
     def setUp(self):
-        self.new_account=Account("james","Sembi","jamo","jamo267","jamo@gmail.com")
+        self.new_account=Account("James","Sembi","jamo","jamo267","jamo@gmail.com")
 
 
     def test_init(self):
