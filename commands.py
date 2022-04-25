@@ -14,3 +14,8 @@ commands = [
         "type": 'Users',
         "description": "To list all users"
     },
+    {
+        "command": 'au',
+        "type": 'Users',
+        "description": "To authenticate a user"
+    },
