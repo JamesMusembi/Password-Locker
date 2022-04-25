@@ -68,7 +68,7 @@ SOFTWARE.
 
 ## Authors Info
 
-* Slack Profile - [James Musembi](https://app.slack.com/client/T0101L740P4/D02TPNMEGBG)
+* Slack Profile - [James Musembi](https://app.slack.com/client/T0101L740P4/D02TPNMEGBG/user_profile/U02TWE2J9BM)
 * Email address - [James Musembi](james.musembi@student.moringaschool.com)
 
 
