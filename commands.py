@@ -34,4 +34,19 @@ commands = [
         "type": 'Credentials',
         "description": "To create a new credential"
     },
+    {
+        "command": 'lc',
+        "type": 'Credentials',
+        "description": "To List all credentials"
+    },
+    {
+        "command": 'gluc',
+        "type": 'Credentials',
+        "description": "To List credentials for a logged in user"
+    },
+    {
+        "command": 'dc',
+        "type": 'Credentials',
+        "description": "To delete a credential"
+    },
     
