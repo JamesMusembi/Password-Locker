@@ -38,3 +38,4 @@ This is an application written in python in which a user can create an account a
 |Delete an existing credential that you don't want anymore|Enter ```DEL```|Enter the account name of the Credentials you want to delete and returns true if the account has been deleted and false if the account doesn't exixt|
 |Exit the application| Enter ```EX```| exits appliation|
 
+[Go Back to the top](#password-locker)
