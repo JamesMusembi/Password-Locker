@@ -16,3 +16,8 @@ This is an application written in python in which a user can create an account a
 ### Requirements
 * Either a computer,phone,tablet or an Ipad
 * An access to the Internet
+### Installation
+* Clone the github repo
+* Open the terminal
+* On the terminal run the command ./run.py to open the application
+* Follow prompts
