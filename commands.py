@@ -19,3 +19,9 @@ commands = [
         "type": 'Users',
         "description": "To authenticate a user"
     },
+    {
+        "command": 'aua',
+        "type": 'Users',
+        "description": "To Logout a user"
+    },
+    
