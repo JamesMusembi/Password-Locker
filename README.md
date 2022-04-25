@@ -46,6 +46,6 @@ This is an application written in python in which a user can create an account a
 MIT License
 
 Copyright © license 2022 ,James Musembi, student Moringa school.
- [View License Here](LICENSE)
+ 
 
 
