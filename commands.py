@@ -24,4 +24,9 @@ commands = [
         "type": 'Users',
         "description": "To Logout a user"
     },
+    {
+        "command": 'glu',
+        "type": 'Users',
+        "description": "To get the logged in user"
+    },
     
