@@ -40,3 +40,10 @@ This is an application written in python in which a user can create an account a
 |Exit the application| Enter ```EX```| exits appliation|
 
 [Go Back to the top](#password-locker)
+
+## License -Copyright 
+
+MIT License
+
+Copyright © license 2022 ,James Musembi, student Moringa school.
+
