@@ -65,4 +65,11 @@ commands = [
         "description": "To Exit the app"
     },
 ]
+
+
+def getCommand(command_):
+    for command in commands:
+        if command["command"] == command_:
+            return command
+    return None
     
