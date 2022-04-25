@@ -49,4 +49,20 @@ commands = [
         "type": 'Credentials',
         "description": "To delete a credential"
     },
+    {
+        "command": 'nc',
+        "type": 'App',
+        "description": "To make a new command"
+    },
+    {
+        "command": 'h',
+        "type": 'App',
+        "description": "To get help"
+    },
+    {
+        "command": 'q',
+        "type": 'App',
+        "description": "To Exit the app"
+    },
+]
     
