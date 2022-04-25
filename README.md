@@ -66,4 +66,9 @@ SOFTWARE.
 
 [Go Back to the top](#password-locker)
 
+## Authors Info
+
+* Slack Profile - [James Musembi](https://app.slack.com/client/T0101L740P4/C010GLANY3A/user_profile/U02TTFQ0VJR)
+* Email address - [James Musembi](james.musembi@student.moringaschool.com)
+
 
