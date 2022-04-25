@@ -29,4 +29,9 @@ commands = [
         "type": 'Users',
         "description": "To get the logged in user"
     },
+    {
+        "command": 'cc',
+        "type": 'Credentials',
+        "description": "To create a new credential"
+    },
     
