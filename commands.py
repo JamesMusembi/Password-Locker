@@ -9,3 +9,8 @@ commands = [
         "type": 'Users',
         "description": "To delete a user"
     },
+    {
+        "command": 'lu',
+        "type": 'Users',
+        "description": "To list all users"
+    },
