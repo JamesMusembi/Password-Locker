@@ -1,5 +1,6 @@
 # Password-Locker
 ##### By James Musembi
+### This is an application for securing account passwords
 ## Table of Content
 
 + [Description](#description)
