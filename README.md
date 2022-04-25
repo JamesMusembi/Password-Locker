@@ -11,3 +11,8 @@
 
 ## Description
 This is an application written in python in which a user can create an account and store account passwords in it and retrieve them when needed.
+## Set-up/Installation 
+
+### Requirements
+* Either a computer,phone,tablet or an Ipad
+* An access to the Internet
