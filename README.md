@@ -22,3 +22,5 @@ This is an application written in python in which a user can create an account a
 * Open the terminal
 * On the terminal run the command ./run.py to open the application
 * Follow prompts
+## Technology Used
+* Python3.9- to impliment the functionality of the application.
