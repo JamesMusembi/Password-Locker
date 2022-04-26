@@ -31,7 +31,7 @@ This is an application written in python in which a user can create an account a
 | Behaviour | Input | Output |
 | :---------------- | :---------------: | ------------------: |
 |Open the application on the terminal | Run the command ```$ python3.9 run.py```|Hello welcome, Enter your name to create an account <br>* CA ---  Create New Account * L |
-|Select  fa| input username and password| Hello ```username```, Your account has been reached succesfully! Your password is: ```password```|
+|Select  fa| input username and password| Hello ```username```, Your account has been searched succesfully! Your password is: ```password```|
 
 
 
