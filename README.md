@@ -31,10 +31,10 @@ This is an application written in python in which a user can create an account a
 | Behaviour | Input | Output |
 | :---------------- | :---------------: | ------------------: |
 |Open the application on the terminal | Run the command ```$ python3.9 run.py```|Hello welcome, Enter your name to create an account <br>* CA ---  Create New Account * L |
-|Select  GP| input username and password| Hello ```username```, Your account has been created succesfully! Your password is: ```password```|
-|Select LI  | Enter your password and username you signed up with| Abbreviations menu to help you navigate through the application|
+|Select  fa| input username and password| Hello ```username```, Your account has been reached succesfully! Your password is: ```password```|
 
-|Exit the application| Enter ```EX```| exits appliation```|
+
+
 
 [Go Back to the top](#password-locker)
 
