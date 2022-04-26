@@ -1,8 +1,11 @@
-#!/usr/bin/env python3.9
+#!/usr/bin/python3.9
+
 
 # import email
+import random
 from credentials import Account
 
+chars="abcdefghijklmopqrstuvwxyzABCDEFGHIJKLMOPQRSTUVWXYZ123456789!@#$&"
 
 def create_account(fname,lname,username,password,email):
     '''
@@ -10,16 +13,19 @@ def create_account(fname,lname,username,password,email):
     '''
     new_account =Account(fname,lname,username,password,email)
     return new_account
+
 def save_accounts(account):
     '''
     Function to save the new account
     '''
     account.save_account()
+
 def delete_account(account):
     '''
     Function to delete an account
     '''
     account.delete_account()
+
 def display_accounts():
     
     return Account.display_accounts()
@@ -43,7 +49,8 @@ def main():
     print("\n")
 
     while True:
-        print("Use these short codes : ca - create a new account,gp -generate new password ,cpg - get generated password by computor, da - display accounts,dp -display old password, fa -find an account, ex -exit the account list ")
+        print("Use these short codes : ca - create a new account, da - display accounts,dp -display old password, fa -find an account, ex -exit the account list ")
+        
         short_code=input().lower()
         if short_code== 'ca':
             print('New Account')
@@ -60,14 +67,31 @@ def main():
 
             print("Email ....")
             email_=input()
-
-            print("Password ....")
-            password_=input()
-
-            save_accounts(create_account(f_name,l_name,username_,email_,password_)) # create and save new account.
-            print ('\n')
-            print(f"New account {f_name} {l_name} created")
-            print ('\n')
+            password_len=int(10)
+            
+            password=""
+            for x in range(0,password_len):
+                password_char=random.choice(chars)
+                pass_word=password + password_char
+                # print("Here is your password:",pass_word)
+                print("choose password option")
+        
+                print("1.Enter your own password")
+                print("2.Let the sytem choose for you")
+                p_=input("Enter option;     ")
+                if p_=="1":
+                     password=input(f"Enter password:   ")
+                elif p_=="2":
+                     password=pass_word
+                if p_=="1" or p_== "2":
+                    print('you password has been generated successfully')
+                    save_accounts(create_account(f_name,l_name,username_,email_,password)) # create and save new account.
+                    print ('\n')
+                    print(f"New account {f_name} {l_name} created")
+                    print ('\n')
+                    break
+                    
+            
 
         elif short_code=="da":
             if display_accounts():
@@ -75,7 +99,7 @@ def main():
                 print("\n")
 
                 for account in display_accounts():
-                     print(f"{account.first_name} {account.last_name}{account.email} ...{account.username}")
+                     print(f"{account.first_name}    {account.last_name}    {account.email}     {account.username}       {account.password}")
                      print('\n')
 
             else:
