@@ -33,10 +33,8 @@ This is an application written in python in which a user can create an account a
 |Open the application on the terminal | Run the command ```$ python3.9 run.py```|Hello welcome, Enter your name to create an account <br>* CA ---  Create New Account * L |
 |Select  GP| input username and password| Hello ```username```, Your account has been created succesfully! Your password is: ```password```|
 |Select LI  | Enter your password and username you signed up with| Abbreviations menu to help you navigate through the application|
-|Store a new credential in the application| Enter ```CC```|Enter Account, username, password<br>choose ```tp``` to enter your password or ```gp``` for the application to generate a password for you |
-|Display all stored credentials | Enter ```DC```|A list of all credentials that has been stored or ```You don't have any credentials saved yet``` |
 
-|Exit the application| Enter ```EX```| exits appliation|
+|Exit the application| Enter ```EX```| exits appliation```|
 
 [Go Back to the top](#password-locker)
 
