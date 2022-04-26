@@ -11,8 +11,9 @@ class AccountsTest(unittest.TestCase):
         self.assertEqual(self.new_account.first_name,"James")
         self.assertEqual(self.new_account.last_name,"Sembi")
         self.assertEqual(self.new_account.username,"jamo")
+       
+        # self.assertEqual(self.new_account.email,"jamo@gmail.com")
         self.assertEqual(self.new_account.password,"jamo267")
-        self.assertEqual(self.new_account.email,"jamo@gmail.com")
     def test_save_account(self):
         self.new_account.save_account() # saving the new contact
         self.assertEqual(len(Account.account_list),1)
